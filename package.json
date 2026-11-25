@@ -1,0 +1,45 @@
+{
+  "name": "topper-maker",
+  "version": "1.0.0",
+  "description": "Disenador de toppers para torta imprimibles en 3D",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fonts": "node scripts/copy-fonts.mjs",
+    "ornaments": "node scripts/extract-ornaments.mjs",
+    "test:geometry": "node scripts/selftest.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "clipper-lib": "^6.4.2",
+    "opentype.js": "^1.3.4",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@fontsource/abril-fatface": "^5.3.0",
+    "@fontsource/alex-brush": "^5.3.0",
+    "@fontsource/allura": "^5.3.0",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/cookie": "^5.3.0",
+    "@fontsource/dancing-script": "^5.3.0",
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/great-vibes": "^5.3.0",
+    "@fontsource/kaushan-script": "^5.3.0",
+    "@fontsource/lobster": "^5.3.0",
+    "@fontsource/luckiest-guy": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@fontsource/pacifico": "^5.3.0",
+    "@fontsource/parisienne": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/righteous": "^5.3.0",
+    "@fontsource/sacramento": "^5.3.0",
+    "@fontsource/satisfy": "^5.3.0",
+    "@fontsource/yellowtail": "^5.3.0",
+    "@phosphor-icons/core": "^2.1.1",
+    "vite": "^8.3.8"
+  },
+  "private": true
+}
